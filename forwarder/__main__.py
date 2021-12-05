@@ -9,9 +9,14 @@ from forwarder.modules import ALL_MODULES
 
 PM_START_TEXT = """
 Hey {}, I'm {}!
-I'm a bot used to forward messages from one chat to another.
+I'm a bot used to Increase Views On Channel Posts automatically.
+Place Your Order Now
 
-To obtain a list of commands, use /help.
+Payment method Paytm , usd , Trx 
+
+For account details pm me @mhdfajis
+
+Demo Also available On One Post 🙂
 """
 
 PM_HELP_TEXT = """
@@ -52,7 +57,7 @@ def help(update: Update, _):
 
 def main():
     start_handler = CommandHandler(
-        "start", start, filters=Filters.user(OWNER_ID), run_async=True
+        "start", start, run_async=True
     )
     help_handler = CommandHandler(
         "help", help, filters=Filters.user(OWNER_ID), run_async=True
