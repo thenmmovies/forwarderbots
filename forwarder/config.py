@@ -4,7 +4,7 @@ class Config(object):
     REMOVE_TAG = False
 
     # REQUIRED
-    API_KEY = "266272106c7fb627c1753f776e15e498"  # API key obtained from BotFather
+    API_KEY = "6043062672:AAH76W9fh5Iw6KSN8epvG_2GETas94EAeZI"  # API key obtained from BotFather
     OWNER_ID = "1224313313"  # If you dont know, run the bot and do /id in your private chat with the bot
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
